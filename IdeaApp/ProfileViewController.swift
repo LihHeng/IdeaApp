@@ -20,6 +20,14 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var progressNoLabel: UILabel!
     @IBOutlet weak var incompleteNoLabel: UILabel!
     @IBOutlet weak var completeNoLabel: UILabel!
+    @IBAction func LogOutButton(_ sender: Any) {
+        do{
+            try Auth.auth().signOut()
+            dismiss(animated: true, completion: nil)
+        } catch {
+            
+        }
+    }
     
     var ref : DatabaseReference!
     
