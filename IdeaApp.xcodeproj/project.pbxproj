@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E77FCC42064A05100D57E3A /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCC32064A05100D57E3A /* ExploreViewController.swift */; };
+		4E77FCC82064E49E00D57E3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCC72064E49E00D57E3A /* ProfileViewController.swift */; };
+		4E77FCCC2064F6E600D57E3A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCCB2064F6E600D57E3A /* EditProfileViewController.swift */; };
+		4E77FCCE2065150A00D57E3A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCCD2065150A00D57E3A /* Comment.swift */; };
+		4E77FCD020651A6600D57E3A /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCCF20651A6600D57E3A /* CommentTableViewCell.swift */; };
+		4E77FCD2206539A100D57E3A /* UploadMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCD1206539A100D57E3A /* UploadMapViewController.swift */; };
+		4E77FCD42065440000D57E3A /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77FCD32065440000D57E3A /* LocationSearchTable.swift */; };
 		4EAF046A20623EDE000D5C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF046920623EDE000D5C9F /* AppDelegate.swift */; };
-		4EAF046C20623EDE000D5C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF046B20623EDE000D5C9F /* ViewController.swift */; };
+		4EAF046C20623EDE000D5C9F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF046B20623EDE000D5C9F /* LoginViewController.swift */; };
 		4EAF046F20623EDE000D5C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF046D20623EDE000D5C9F /* Main.storyboard */; };
 		4EAF047120623EDE000D5C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF047020623EDE000D5C9F /* Assets.xcassets */; };
 		4EAF047420623EDE000D5C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF047220623EDE000D5C9F /* LaunchScreen.storyboard */; };
 		4EAF047C20627F47000D5C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF047B20627F47000D5C9F /* GoogleService-Info.plist */; };
+		4EAF047E2062843B000D5C9F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF047D2062843B000D5C9F /* SignUpViewController.swift */; };
+		4EAF0480206284DC000D5C9F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF047F206284DC000D5C9F /* Alert.swift */; };
+		4EAF048520633D5A000D5C9F /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF048320633D5A000D5C9F /* ListingTableViewCell.swift */; };
+		4EAF048620633D5A000D5C9F /* ListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EAF048420633D5A000D5C9F /* ListingTableViewCell.xib */; };
+		4EAF0488206363D1000D5C9F /* IdeaListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF0487206363D1000D5C9F /* IdeaListingViewController.swift */; };
+		4EAF048A206364CF000D5C9F /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF0489206364CF000D5C9F /* Idea.swift */; };
+		4EAF048C2063661B000D5C9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF048B2063661B000D5C9F /* User.swift */; };
+		4EAF049420639747000D5C9F /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF049320639747000D5C9F /* Colour.swift */; };
+		4EAF04972063A12C000D5C9F /* IdeaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF04952063A12C000D5C9F /* IdeaDetailViewController.swift */; };
+		4EAF049A2063C588000D5C9F /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF04992063C588000D5C9F /* MapKitViewController.swift */; };
+		4EAF049C2063CB6A000D5C9F /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF049B2063CB6A000D5C9F /* CustomPointAnnotation.swift */; };
+		4EAF049E206418EB000D5C9F /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF049D206418EB000D5C9F /* PinAnnotation.swift */; };
+		4EAF04A02064793E000D5C9F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAF049F2064793E000D5C9F /* MapKit.framework */; };
+		4EAF04A220648DF7000D5C9F /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF04A120648DF7000D5C9F /* PostingViewController.swift */; };
+		4EC3CE61206556DE00BA970D /* xxxxxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3CE60206556DE00BA970D /* xxxxxTableViewController.swift */; };
 		8EFCFEDEC010A059CC039488 /* Pods_IdeaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4E59844FAC361E5435D29D /* Pods_IdeaApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +42,36 @@
 		051D5983EAC3B83D712FD17B /* Pods-IdeaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp.release.xcconfig"; sourceTree = "<group>"; };
 		1B4E59844FAC361E5435D29D /* Pods_IdeaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAE80F4848E3FB015DC81D9 /* Pods-IdeaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaApp/Pods-IdeaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4E77FCC32064A05100D57E3A /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		4E77FCC72064E49E00D57E3A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4E77FCCB2064F6E600D57E3A /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4E77FCCD2065150A00D57E3A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		4E77FCCF20651A6600D57E3A /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		4E77FCD1206539A100D57E3A /* UploadMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMapViewController.swift; sourceTree = "<group>"; };
+		4E77FCD32065440000D57E3A /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		4EAF046620623EDE000D5C9F /* IdeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAF046920623EDE000D5C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EAF046B20623EDE000D5C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EAF046B20623EDE000D5C9F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4EAF046E20623EDE000D5C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EAF047020623EDE000D5C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EAF047320623EDE000D5C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EAF047520623EDE000D5C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EAF047B20627F47000D5C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EAF047D2062843B000D5C9F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4EAF047F206284DC000D5C9F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4EAF048320633D5A000D5C9F /* ListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTableViewCell.swift; sourceTree = "<group>"; };
+		4EAF048420633D5A000D5C9F /* ListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingTableViewCell.xib; sourceTree = "<group>"; };
+		4EAF0487206363D1000D5C9F /* IdeaListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaListingViewController.swift; sourceTree = "<group>"; };
+		4EAF0489206364CF000D5C9F /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
+		4EAF048B2063661B000D5C9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4EAF049320639747000D5C9F /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		4EAF04952063A12C000D5C9F /* IdeaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaDetailViewController.swift; sourceTree = "<group>"; };
+		4EAF04992063C588000D5C9F /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		4EAF049B2063CB6A000D5C9F /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		4EAF049D206418EB000D5C9F /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		4EAF049F2064793E000D5C9F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4EAF04A120648DF7000D5C9F /* PostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		4EC3CE60206556DE00BA970D /* xxxxxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xxxxxTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EAF04A02064793E000D5C9F /* MapKit.framework in Frameworks */,
 				8EFCFEDEC010A059CC039488 /* Pods_IdeaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +90,7 @@
 		423A18A73117F216A6F488EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EAF049F2064793E000D5C9F /* MapKit.framework */,
 				1B4E59844FAC361E5435D29D /* Pods_IdeaApp.framework */,
 			);
 			name = Frameworks;
@@ -72,8 +118,29 @@
 			isa = PBXGroup;
 			children = (
 				4EAF046920623EDE000D5C9F /* AppDelegate.swift */,
-				4EAF046B20623EDE000D5C9F /* ViewController.swift */,
+				4EAF047F206284DC000D5C9F /* Alert.swift */,
+				4EAF049320639747000D5C9F /* Colour.swift */,
+				4EAF046B20623EDE000D5C9F /* LoginViewController.swift */,
+				4EAF047D2062843B000D5C9F /* SignUpViewController.swift */,
 				4EAF046D20623EDE000D5C9F /* Main.storyboard */,
+				4EAF049B2063CB6A000D5C9F /* CustomPointAnnotation.swift */,
+				4EAF049D206418EB000D5C9F /* PinAnnotation.swift */,
+				4EAF0487206363D1000D5C9F /* IdeaListingViewController.swift */,
+				4EAF04952063A12C000D5C9F /* IdeaDetailViewController.swift */,
+				4EAF04992063C588000D5C9F /* MapKitViewController.swift */,
+				4EAF04A120648DF7000D5C9F /* PostingViewController.swift */,
+				4E77FCD32065440000D57E3A /* LocationSearchTable.swift */,
+				4EC3CE60206556DE00BA970D /* xxxxxTableViewController.swift */,
+				4E77FCD1206539A100D57E3A /* UploadMapViewController.swift */,
+				4E77FCC32064A05100D57E3A /* ExploreViewController.swift */,
+				4E77FCC72064E49E00D57E3A /* ProfileViewController.swift */,
+				4E77FCCB2064F6E600D57E3A /* EditProfileViewController.swift */,
+				4EAF0489206364CF000D5C9F /* Idea.swift */,
+				4EAF048B2063661B000D5C9F /* User.swift */,
+				4E77FCCD2065150A00D57E3A /* Comment.swift */,
+				4E77FCCF20651A6600D57E3A /* CommentTableViewCell.swift */,
+				4EAF048320633D5A000D5C9F /* ListingTableViewCell.swift */,
+				4EAF048420633D5A000D5C9F /* ListingTableViewCell.xib */,
 				4EAF047020623EDE000D5C9F /* Assets.xcassets */,
 				4EAF047220623EDE000D5C9F /* LaunchScreen.storyboard */,
 				4EAF047520623EDE000D5C9F /* Info.plist */,
@@ -127,6 +194,11 @@
 					4EAF046520623EDE000D5C9F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -157,6 +229,7 @@
 				4EAF047120623EDE000D5C9F /* Assets.xcassets in Resources */,
 				4EAF047C20627F47000D5C9F /* GoogleService-Info.plist in Resources */,
 				4EAF046F20623EDE000D5C9F /* Main.storyboard in Resources */,
+				4EAF048620633D5A000D5C9F /* ListingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +300,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EAF046C20623EDE000D5C9F /* ViewController.swift in Sources */,
+				4EAF048A206364CF000D5C9F /* Idea.swift in Sources */,
+				4EAF04A220648DF7000D5C9F /* PostingViewController.swift in Sources */,
+				4E77FCC42064A05100D57E3A /* ExploreViewController.swift in Sources */,
+				4EAF047E2062843B000D5C9F /* SignUpViewController.swift in Sources */,
+				4EAF048520633D5A000D5C9F /* ListingTableViewCell.swift in Sources */,
+				4EAF046C20623EDE000D5C9F /* LoginViewController.swift in Sources */,
+				4EAF049A2063C588000D5C9F /* MapKitViewController.swift in Sources */,
+				4E77FCD2206539A100D57E3A /* UploadMapViewController.swift in Sources */,
+				4E77FCD42065440000D57E3A /* LocationSearchTable.swift in Sources */,
+				4E77FCD020651A6600D57E3A /* CommentTableViewCell.swift in Sources */,
+				4E77FCCC2064F6E600D57E3A /* EditProfileViewController.swift in Sources */,
+				4E77FCC82064E49E00D57E3A /* ProfileViewController.swift in Sources */,
+				4EAF049E206418EB000D5C9F /* PinAnnotation.swift in Sources */,
+				4EAF048C2063661B000D5C9F /* User.swift in Sources */,
+				4EAF0480206284DC000D5C9F /* Alert.swift in Sources */,
+				4EAF049420639747000D5C9F /* Colour.swift in Sources */,
+				4EC3CE61206556DE00BA970D /* xxxxxTableViewController.swift in Sources */,
+				4E77FCCE2065150A00D57E3A /* Comment.swift in Sources */,
+				4EAF0488206363D1000D5C9F /* IdeaListingViewController.swift in Sources */,
+				4EAF04972063A12C000D5C9F /* IdeaDetailViewController.swift in Sources */,
+				4EAF049C2063CB6A000D5C9F /* CustomPointAnnotation.swift in Sources */,
 				4EAF046A20623EDE000D5C9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
